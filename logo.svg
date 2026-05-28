@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
-<rect width="900" height="260" rx="28" fill="#ffffff"/>
-<circle cx="145" cy="130" r="82" fill="#c40000"/>
-<path d="M85 145 L118 145 L135 92 L166 168 L186 122 L215 122" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M78 160 C105 82 190 82 220 160" fill="none" stroke="#111" stroke-width="10" stroke-linecap="round"/>
-<circle cx="103" cy="160" r="16" fill="#111"/>
-<circle cx="198" cy="160" r="16" fill="#111"/>
-<text x="280" y="112" font-family="Arial" font-size="52" font-weight="900" fill="#111">MR. MECHANIC</text>
-<text x="282" y="162" font-family="Arial" font-size="30" font-weight="700" fill="#c40000">SERVICE CENTRE</text>
-<text x="282" y="204" font-family="Arial" font-size="20" fill="#333">Auto Repair • Diagnostics • Maintenance</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="180" viewBox="0 0 700 180">
+<rect width="700" height="180" fill="white"/>
+<circle cx="85" cy="90" r="58" fill="#c40000"/>
+<path d="M43 100 C58 52 111 52 130 100" fill="none" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+<circle cx="58" cy="105" r="12" fill="#111"/>
+<circle cx="120" cy="105" r="12" fill="#111"/>
+<path d="M52 89 L73 89 L86 54 L104 118 L117 82 L139 82" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="165" y="82" font-family="Arial" font-size="46" font-weight="900" fill="#111">MR. MECHANIC</text>
+<line x1="168" y1="105" x2="580" y2="105" stroke="#c40000" stroke-width="5"/>
+<text x="195" y="142" font-family="Arial" font-size="25" font-weight="800" fill="#c40000">SERVICE CENTRE</text>
 </svg>
