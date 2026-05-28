@@ -1,35 +1,69 @@
 
 *{box-sizing:border-box}
-body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f6f8;color:#17202a}
-header{background:#111827;color:white;text-align:center;padding:28px 15px}
-header h2{margin:0;font-size:34px;color:#ffcc00}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#ffffff;color:#111111}
+header{background:#c40000;color:white;text-align:center;padding:28px 15px}
+header h2{margin:0;font-size:34px;color:#ffffff}
 header p{margin:8px 0 0;font-size:16px}
-nav{background:#ffcc00;text-align:center;padding:14px}
-nav a{color:#111827;text-decoration:none;font-weight:bold;margin:0 14px}
+nav{background:#ffffff;text-align:center;padding:14px}
+nav a{color:#111111;text-decoration:none;font-weight:bold;margin:0 14px}
 nav a:hover{text-decoration:underline}
 .hero{background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),url('hero.svg');background-size:cover;background-position:center;color:white;text-align:center;padding:90px 20px}
 .hero h1{font-size:44px;margin:0 0 15px}
 .hero p{font-size:20px;margin-bottom:25px}
-.btn{display:inline-block;background:#ffcc00;color:#111827;padding:14px 22px;border-radius:8px;text-decoration:none;font-weight:bold;margin:6px}
-.btn.dark{background:#111827;color:white}
+.btn{display:inline-block;background:#ffffff;color:#111111;padding:14px 22px;border-radius:8px;text-decoration:none;font-weight:bold;margin:6px}
+.btn.dark{background:#c40000;color:white}
 .container{max-width:1100px;margin:auto;padding:45px 20px}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px}
-.card{background:white;border-radius:14px;padding:24px;box-shadow:0 8px 22px rgba(0,0,0,.09)}
-.card h3{margin-top:0;color:#111827}
-.highlight{background:#111827;color:white;border-radius:16px;padding:30px;text-align:center;margin:25px 0}
-.highlight h2{color:#ffcc00}
-.social-section{text-align:center;padding:30px 20px;background:white}
-.social-section a{margin:10px;font-size:20px;color:#111827;font-weight:bold;text-decoration:none}
+.card{background:#ffffff;border-radius:14px;padding:24px;box-shadow:0 8px 22px rgba(0,0,0,.15);border:1px solid #e5e5e5}
+.card h3{margin-top:0;color:#111111}
+.highlight{background:#c40000;color:white;border-radius:16px;padding:30px;text-align:center;margin:25px 0}
+.highlight h2{color:#ffffff}
+.social-section{text-align:center;padding:30px 20px;background:#ffffff}
+.social-section a{margin:10px;font-size:20px;color:#111111;font-weight:bold;text-decoration:none}
 .floating-buttons{position:fixed;bottom:20px;right:20px;display:flex;flex-direction:column;gap:10px;z-index:9999}
 .float-btn{color:white;padding:12px 16px;border-radius:50px;text-decoration:none;font-weight:bold;box-shadow:0 6px 16px rgba(0,0,0,.25)}
 .whatsapp{background:#25D366}
-.call{background:#111827}
+.call{background:#c40000}
 .instagram{background:#E1306C}
 .tiktok{background:#000}
-footer{background:#111827;color:white;text-align:center;padding:22px}
+footer{background:#c40000;color:white;text-align:center;padding:22px}
 @media(max-width:700px){
 .hero h1{font-size:32px}
 nav a{display:inline-block;margin:6px 8px}
 .floating-buttons{right:12px;bottom:12px}
 .float-btn{padding:10px 12px;font-size:14px}
+}
+
+.hero {
+    border-bottom: 4px solid #c40000;
+}
+.card:hover{
+    transform:translateY(-4px);
+    transition:0.3s ease;
+}
+.btn{
+    border:2px solid #c40000;
+}
+
+nav{
+    background:#ffffff !important;
+    border-bottom:2px solid #c40000;
+}
+nav a{
+    color:#c40000 !important;
+}
+.btn{
+    background:#ffffff !important;
+    color:#c40000 !important;
+    border:2px solid #c40000 !important;
+}
+.btn.dark{
+    background:#c40000 !important;
+    color:white !important;
+}
+.card h3{
+    color:#c40000 !important;
+}
+footer{
+    background:#c40000 !important;
 }
