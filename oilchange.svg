@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#f7f7f7"/>
+<path d="M455 95 C360 195 305 270 305 345 C305 425 370 480 450 480 C530 480 595 425 595 345 C595 270 545 200 455 95 Z" fill="#c40000"/>
+<path d="M455 160 C390 240 360 295 360 345 C360 395 400 430 450 430 C500 430 540 395 540 345 C540 295 510 240 455 160 Z" fill="#ffffff" opacity=".9"/>
+<rect x="130" y="105" width="190" height="120" rx="20" fill="#111"/>
+<text x="225" y="178" font-size="38" fill="#fff" text-anchor="middle" font-family="Arial" font-weight="700">OIL</text>
+<text x="450" y="62" font-size="40" fill="#c40000" text-anchor="middle" font-family="Arial" font-weight="700">FULL SYNTHETIC OIL CHANGE</text>
+<text x="450" y="330" font-size="52" fill="#c40000" text-anchor="middle" font-family="Arial" font-weight="700">$75 + TAX</text>
+</svg>
