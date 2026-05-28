@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+<rect width="1000" height="620" fill="#f8f8f8"/>
+<rect x="80" y="95" width="840" height="400" rx="18" fill="#fff" stroke="#c40000" stroke-width="8"/>
+<rect x="130" y="170" width="220" height="275" fill="#222"/>
+<rect x="390" y="170" width="220" height="275" fill="#222"/>
+<rect x="650" y="170" width="220" height="275" fill="#222"/>
+<rect x="110" y="115" width="780" height="60" fill="#c40000"/>
+<text x="500" y="155" font-family="Arial" font-size="32" fill="#fff" font-weight="900" text-anchor="middle">MR. MECHANIC SERVICE CENTRE</text>
+<path d="M250 445 C295 360 395 345 500 350 C625 355 705 380 760 445 Z" fill="#c40000"/>
+<rect x="315" y="425" width="370" height="45" rx="22" fill="#fff"/>
+<circle cx="340" cy="470" r="42" fill="#111"/>
+<circle cx="670" cy="470" r="42" fill="#111"/>
+<text x="500" y="565" font-family="Arial" font-size="32" fill="#c40000" font-weight="900" text-anchor="middle">Clean Shop • Honest Service • Reliable Repairs</text>
+</svg>

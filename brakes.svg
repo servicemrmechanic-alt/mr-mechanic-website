@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+<rect width="1000" height="620" fill="#fff"/>
+<circle cx="355" cy="310" r="190" fill="#e5e5e5" stroke="#111" stroke-width="18"/>
+<circle cx="355" cy="310" r="90" fill="#fff" stroke="#777" stroke-width="12"/>
+<circle cx="355" cy="310" r="22" fill="#111"/>
+<path d="M510 200 C630 210 710 300 730 420 L615 450 C600 350 560 290 480 265 Z" fill="#c40000"/>
+<rect x="620" y="170" width="255" height="95" rx="18" fill="#111"/>
+<text x="748" y="230" font-family="Arial" font-size="38" fill="#fff" font-weight="900" text-anchor="middle">BRAKES</text>
+<text x="500" y="555" font-family="Arial" font-size="34" fill="#c40000" font-weight="900" text-anchor="middle">Pads • Rotors • Calipers • Brake Diagnostics</text>
+</svg>

@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
-<rect width="900" height="520" fill="#ffffff"/>
-<rect x="120" y="90" width="660" height="340" rx="28" fill="#111"/>
-<rect x="160" y="130" width="580" height="220" rx="14" fill="#f8f8f8"/>
-<path d="M210 270 L290 270 L320 210 L370 320 L420 250 L500 250" fill="none" stroke="#c40000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="610" cy="245" r="55" fill="#c40000"/>
-<text x="610" y="258" font-size="42" fill="#fff" text-anchor="middle" font-family="Arial" font-weight="700">OBD</text>
-<rect x="350" y="380" width="200" height="35" rx="12" fill="#c40000"/>
-<text x="450" y="470" font-size="38" fill="#c40000" text-anchor="middle" font-family="Arial" font-weight="700">DIAGNOSTICS</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+<rect width="1000" height="620" fill="#f8f8f8"/>
+<rect x="170" y="105" width="660" height="380" rx="34" fill="#111"/>
+<rect x="220" y="155" width="560" height="220" rx="18" fill="#fff"/>
+<path d="M265 285 L335 285 L370 220 L425 340 L485 260 L570 260" fill="none" stroke="#c40000" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="660" cy="270" r="65" fill="#c40000"/>
+<text x="660" y="286" font-family="Arial" font-size="45" fill="#fff" font-weight="900" text-anchor="middle">OBD</text>
+<rect x="380" y="425" width="240" height="42" rx="15" fill="#c40000"/>
+<text x="500" y="555" font-family="Arial" font-size="36" fill="#c40000" font-weight="900" text-anchor="middle">ADVANCED VEHICLE DIAGNOSTICS</text>
 </svg>

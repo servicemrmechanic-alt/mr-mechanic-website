@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+<rect width="900" height="260" rx="28" fill="#ffffff"/>
+<circle cx="145" cy="130" r="82" fill="#c40000"/>
+<path d="M85 145 L118 145 L135 92 L166 168 L186 122 L215 122" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M78 160 C105 82 190 82 220 160" fill="none" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+<circle cx="103" cy="160" r="16" fill="#111"/>
+<circle cx="198" cy="160" r="16" fill="#111"/>
+<text x="280" y="112" font-family="Arial" font-size="52" font-weight="900" fill="#111">MR. MECHANIC</text>
+<text x="282" y="162" font-family="Arial" font-size="30" font-weight="700" fill="#c40000">SERVICE CENTRE</text>
+<text x="282" y="204" font-family="Arial" font-size="20" fill="#333">Auto Repair • Diagnostics • Maintenance</text>
+</svg>

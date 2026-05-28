@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+<rect width="1000" height="620" fill="#f8f8f8"/>
+<rect x="210" y="190" width="520" height="260" rx="35" fill="#111"/>
+<rect x="300" y="120" width="250" height="90" rx="18" fill="#c40000"/>
+<rect x="700" y="250" width="95" height="80" rx="15" fill="#c40000"/>
+<rect x="120" y="260" width="100" height="70" rx="15" fill="#c40000"/>
+<path d="M285 320 L365 320 L400 250 L455 390 L515 290 L610 290" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="470" y="500" font-family="Arial" font-size="42" fill="#c40000" font-weight="900" text-anchor="middle">ENGINE DIAGNOSTICS</text>
+<text x="470" y="548" font-family="Arial" font-size="26" fill="#111" font-weight="700" text-anchor="middle">Check engine light • No-start • Misfire • Sensors</text>
+</svg>

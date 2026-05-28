@@ -1,76 +1,45 @@
-
 *{box-sizing:border-box}
-body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#ffffff;color:#111111}
-header{background:#c40000;color:white;text-align:center;padding:28px 15px}
-header h2{margin:0;font-size:34px;color:#ffffff}
-header p{margin:8px 0 0;font-size:16px}
-nav{background:#ffffff;text-align:center;padding:14px}
-nav a{color:#111111;text-decoration:none;font-weight:bold;margin:0 14px}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#ffffff;color:#111}
+.topbar{background:#111;color:#fff;text-align:center;padding:10px;font-size:15px}
+header{background:#ffffff;color:#111;text-align:center;padding:24px 15px;border-bottom:1px solid #eee}
+.logo{max-width:430px;width:92%;height:auto}
+.header-contact{margin-top:10px;font-size:16px;font-weight:bold;color:#c40000}
+nav{background:#c40000;text-align:center;padding:15px;position:sticky;top:0;z-index:1000}
+nav a{color:#fff;text-decoration:none;font-weight:bold;margin:0 15px}
 nav a:hover{text-decoration:underline}
-.hero{background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),url('hero.svg');background-size:cover;background-position:center;color:white;text-align:center;padding:90px 20px}
-.hero h1{font-size:44px;margin:0 0 15px}
-.hero p{font-size:20px;margin-bottom:25px}
-.btn{display:inline-block;background:#ffffff;color:#111111;padding:14px 22px;border-radius:8px;text-decoration:none;font-weight:bold;margin:6px}
-.btn.dark{background:#c40000;color:white}
-.container{max-width:1100px;margin:auto;padding:45px 20px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px}
-.card{background:#ffffff;border-radius:14px;padding:24px;box-shadow:0 8px 22px rgba(0,0,0,.15);border:1px solid #e5e5e5}
-.card h3{margin-top:0;color:#111111}
-.highlight{background:#c40000;color:white;border-radius:16px;padding:30px;text-align:center;margin:25px 0}
-.highlight h2{color:#ffffff}
-.social-section{text-align:center;padding:30px 20px;background:#ffffff}
-.social-section a{margin:10px;font-size:20px;color:#111111;font-weight:bold;text-decoration:none}
+.hero{background:linear-gradient(rgba(0,0,0,.58),rgba(0,0,0,.58)),url('hero.svg');background-size:cover;background-position:center;color:white;text-align:center;padding:115px 20px}
+.hero h1{font-size:50px;margin:0 0 15px;text-shadow:0 3px 10px rgba(0,0,0,.5)}
+.hero p{font-size:21px;margin-bottom:28px}
+.btn{display:inline-block;background:#c40000;color:#fff;padding:15px 25px;border-radius:8px;text-decoration:none;font-weight:bold;margin:6px;border:2px solid #c40000}
+.btn.dark{background:#111;border-color:#111}
+.container{max-width:1180px;margin:auto;padding:48px 20px}
+.section-title{text-align:center;font-size:36px;margin:0 0 24px;color:#c40000}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
+.card{background:#fff;border-radius:16px;padding:25px;box-shadow:0 8px 24px rgba(0,0,0,.12);border:1px solid #eee}
+.card h3{margin-top:0;color:#c40000}
+.card p{line-height:1.5}
+.image-banner{margin:35px 0;text-align:center}
+.image-banner img{max-width:100%;border-radius:20px;box-shadow:0 12px 30px rgba(0,0,0,.18);border:1px solid #eee}
+.image-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin:35px 0}
+.image-grid img{width:100%;border-radius:18px;box-shadow:0 10px 25px rgba(0,0,0,.16);border:1px solid #eee;background:#fff}
+.highlight{background:#c40000;color:white;border-radius:18px;padding:34px;text-align:center;margin:30px 0}
+.highlight h2{font-size:32px;margin-top:0}
+.form-box{background:#ffffff;border:1px solid #e5e5e5;border-radius:18px;padding:28px;box-shadow:0 8px 24px rgba(0,0,0,.12)}
+.form-box input,.form-box textarea,.form-box select{width:100%;padding:14px;margin:8px 0 16px;border:1px solid #ccc;border-radius:8px;font-size:16px}
+.form-box label{font-weight:bold}
+.form-box button{background:#c40000;color:#fff;border:none;border-radius:8px;padding:15px 24px;font-weight:bold;font-size:16px;cursor:pointer}
+.social-section{text-align:center;padding:32px 20px;background:#f7f7f7}
+.social-section a{margin:10px;font-size:18px;color:#c40000;font-weight:bold;text-decoration:none}
 .floating-buttons{position:fixed;bottom:20px;right:20px;display:flex;flex-direction:column;gap:10px;z-index:9999}
 .float-btn{color:white;padding:12px 16px;border-radius:50px;text-decoration:none;font-weight:bold;box-shadow:0 6px 16px rgba(0,0,0,.25)}
 .whatsapp{background:#25D366}
 .call{background:#c40000}
-.instagram{background:#E1306C}
-.tiktok{background:#000}
-footer{background:#c40000;color:white;text-align:center;padding:22px}
+footer{background:#111;color:white;text-align:center;padding:22px}
 @media(max-width:700px){
 .hero h1{font-size:32px}
+.hero{padding:75px 18px}
 nav a{display:inline-block;margin:6px 8px}
 .floating-buttons{right:12px;bottom:12px}
 .float-btn{padding:10px 12px;font-size:14px}
+.section-title{font-size:28px}
 }
-
-.hero {
-    border-bottom: 4px solid #c40000;
-}
-.card:hover{
-    transform:translateY(-4px);
-    transition:0.3s ease;
-}
-.btn{
-    border:2px solid #c40000;
-}
-
-nav{
-    background:#ffffff !important;
-    border-bottom:2px solid #c40000;
-}
-nav a{
-    color:#c40000 !important;
-}
-.btn{
-    background:#ffffff !important;
-    color:#c40000 !important;
-    border:2px solid #c40000 !important;
-}
-.btn.dark{
-    background:#c40000 !important;
-    color:white !important;
-}
-.card h3{
-    color:#c40000 !important;
-}
-footer{
-    background:#c40000 !important;
-}
-
-.image-banner{margin:30px 0;text-align:center}
-.image-banner img{max-width:100%;border-radius:18px;box-shadow:0 10px 28px rgba(0,0,0,.18);border:1px solid #eee}
-.form-box{background:#ffffff;border:1px solid #e5e5e5;border-radius:16px;padding:25px;box-shadow:0 8px 22px rgba(0,0,0,.12)}
-.form-box input,.form-box textarea,.form-box select{width:100%;padding:13px;margin:8px 0 15px;border:1px solid #ccc;border-radius:8px;font-size:16px}
-.form-box label{font-weight:bold}
-.form-box button{background:#c40000;color:#fff;border:none;border-radius:8px;padding:14px 22px;font-weight:bold;font-size:16px;cursor:pointer}
